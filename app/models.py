@@ -15,3 +15,7 @@ class Vestibular(models.Model):
 
 class Candidato(models.Model):
     nome = models.CharField(max_length=200)
+    rg = models.CharFiled(max_length=9)
+    cpf = models.CharFiled(max_length=11)
+    endereco = models.CharFiled(max_length=200)
+    
